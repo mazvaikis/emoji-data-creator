@@ -3,7 +3,8 @@ emoji-data-creator
 
 Create a JSON object with some useful emoji data.  Made for use with [angular-emojify](https://github.com/code/angular-emojify).
 
-Parses emoji data from (http://www.unicode.org/~scherer/emoji4unicode/snapshot/full.html) and outputs text looking like:
+Parses emoji data from http://www.unicode.org/~scherer/emoji4unicode/snapshot/full.html and outputs text looking like:
+
     {
       ...
       "\ud83c\uddea\ud83c\uddf8": {
@@ -33,7 +34,7 @@ Parses emoji data from (http://www.unicode.org/~scherer/emoji4unicode/snapshot/f
       ...
     }
 
-All data is verified against twitter emoji images (e.g. (https://abs.twimg.com/emoji/v1/72x72/1f647.png))
+All data is verified against twitter emoji images (e.g. https://abs.twimg.com/emoji/v1/72x72/1f647.png)
 
 Usage
 -----
